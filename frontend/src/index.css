@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+body { @apply bg-slate-950 text-slate-100 antialiased; }
+
+@keyframes live-pulse { 0%,100% { opacity: 1 } 50% { opacity: .3 } }
+.live-dot { animation: live-pulse 1.4s ease-in-out infinite; }
